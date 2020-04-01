@@ -5,8 +5,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <Contact/>
-     </div>
+      <Contact
+      name = "Mamed" 
+      avatar = 'https://randomuser.me/api/portraits/men/39.jpg'
+      online
+      />
+      <Contact
+      name = "Mohamed" 
+      avatar = 'https://randomuser.me/api/portraits/men/40.jpg'
+      offline 
+      />
+      <Contact
+      name = "Aurelien" 
+      avatar = 'https://randomuser.me/api/portraits/men/62.jpg'
+      online
+      />
+    </div>
   );
 }
 
