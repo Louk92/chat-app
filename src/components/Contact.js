@@ -10,11 +10,11 @@ const status = window.navigator.onLine;
 function Contact(props) {
     return (
         <div className="Contact" >
-            <img class="avatar" src={props.avatar} />
-            <div class="Status status-text">
-                <h4 class="name">{props.name}</h4>
-                <p class="status ">
-                    <div class={props.online ? "status-online" : "status-offline"}></div>
+            <img className="avatar" src={props.avatar} />
+            <div className="Status status-text">
+                <h4 className="name">{props.name}</h4>
+                <p className="status ">
+                    <span className={props.online ? "status-online" : "status-offline"}></span>
                     {props.online ? 'online' : "offline"}
                 </p>
             </div>
